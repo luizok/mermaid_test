@@ -63,4 +63,7 @@ classDiagram
     FlyingAnimal -- FlyingKind
     SwimmingAnimal -- SwimmingKind
 
+    Dog --|> WalkingAnimal
+    Eagle --|> FlyingAnimal
+    BabyShark --|> SwimmingAnimal
 ```
