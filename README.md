@@ -40,17 +40,14 @@ classDiagram
     AbstractAnimal *-- AbstractLocomotionKind
 
     class WalkingAnimal {
-        +WalkingAnimal(WalkingKind)
         +move() None
         +walk() None
     }
     class FlyingAnimal {
-        +FlyingAnimal(FlyingKind)
         +move() None
         +fly() None
     }
     class SwimmingAnimal {
-        +SwimmingAnimal(SwimmingKind)
         +move() None
         +swim() None
     }
